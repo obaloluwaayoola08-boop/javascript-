@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    
+}
+.new-color{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background: cyan;
+    color:rgb(3, 3, 143);
+    transition: all 0.7s ease;
+    font-size: 20px;
+}
+.new-color:hover{
+    opacity: .8;
+}
+.color-game h2{
+    font-size: 40px;
+    color: pink;
+}
+.cards-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    max-width: 1000px;
+}
+.color-code{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.card{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    color: grey;
+    background: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+    opacity: .6;
+}
+.flex-head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1000px;
+    font-size: 30px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newstlye.css">
+    <title>Javascript Apps</title>
+</head>
+<body>
+<!-- display toggle -->
+    <div class="display-card">
+        <p>You are welcome to our website</p>
+
+        <span class="cancel">x</span>
+    </div>
+
+    <button class="btn-toggler">Click to display</button>
+
+    <!-- counter -->
+
+    <div class="counter">
+
+        <p class="display-value"></p>
+
+        <div>
+            <button  class="btn-increment">+</button>
+            <button class="btn-decrement">-</button>
+        </div>
+
+    </div>
+
+    <!-- handle form -->
+
+    <form class="cpismform">
+      <div class="input-group">
+        <label>First Name</label>
+        <input placeholder="Type your first name" type="text" name="fname" class="input-field fname" />
+        <p class="error fname-error"></p>
+      </div>
+
+      <div class="input-group">
+        <label>Last Name</label>
+        <input placeholder="type your lastname" type="text" name="lname" class="input-field lname" />
+        <p class="error lname-error"></p>
+      </div>
+
+
+      
+      <div class="input-group">
+        <label>Email</label>
+        <input placeholder="Type your email" type="email" name="email" class="input-field email" />
+        <p class="error email-error"></p>
+      </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input placeholder="Type your password" type="password" name="password" class="input-field password" />
+            <p class="error password-error"></p>
+        </div>
+
+        <div class="input-group">
+
+            <label>Select your program</label>
+
+            <select class="select-field program">
+            <option value="cpism">Cpism</option>
+            <option value="dism">Dism</option>
+            <option value="adse">Adse</option>
+
+          </select>
+            <p class="error program-error"></p>
+
+        </div>
+    <button class="form-submit" type="submit">Submit</button>
+       </form>
+
+       <section class="countdown-section">
+
+        <div> The time to count down is 2hrs</div>
+        <form class="timeForm">
+            <input class="userTime" type="time" placeholder="enter the duration">
+
+            <button class="userTimeSubmit">Submit</button>
+        </form>
+        <div class="times">
+
+             <p><span class="hr-count">00</span> hr :</p>
+    
+        <p><span class="min-count">00</span> min :</p>
+    
+       <p><span class="sec-count">00</span> sec</p>
+
+        </div>
+
+        <div class="countdown-btn-wrapper">
+            <button class="countdown-btn">Start Countdown</button>
+            <button class="reset-countdown-btn">Reset Countdown</button>
+            
+        </div>
+
+       
+
+    </section>
+
+    <script src="script3.js"></script>
+</body>
+</html>
