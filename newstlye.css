@@ -130,3 +130,28 @@ body{
 .countdown-section div{
     font-size: 40px;
 }
+
+@media screen and (max-width: 640px) {
+      .display-card{
+        border-radius: 25px;
+        width: 250px;
+        margin-top: 30px;
+      }
+      .display-value{
+        margin-top: 20px;
+      }
+      .cpismform{
+        width: 250px;
+      }
+      .countdown-section div{
+       font-size: 30px;
+      }
+      .countdown-section button{
+        margin-top: 20px;
+     }
+}
+@media  screen and (min-width:641px) {
+    .menu{
+        display: none;
+    }
+}

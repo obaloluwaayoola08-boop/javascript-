@@ -104,3 +104,44 @@ button{
     background-color: #007BFF;
     color: white;
 }
+
+@media screen and (max-width: 640px) {
+      .menu{
+        display: flex;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+        padding: 0px 15px;
+        width: 30px;
+    }    
+    .nav-ul, .button-outline{
+        display: none;
+    }
+     nav{
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+     }   
+     a{
+        display: none;
+     }
+     img{
+        margin-left: 10px;
+        width: 150px;
+     }
+     .header{
+       margin-left: 10px;
+     }
+     .btn-solid{
+        width: 100%;
+     }
+     .btn-outline{
+        width: 100%;
+        margin-top: 10px;
+     }
+}
+@media  screen and (min-width:641px) {
+    .menu{
+        display: none;
+    }
+}
